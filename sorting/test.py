@@ -1,1 +1,0 @@
-def sort_choice(list_sort):    for i in range(0, len(list_sort) - 1):        index_min = i        for j in range(i + 1, len(list_sort)):            if list_sort[j] < list_sort[index_min]:                index_min = j        list_sort[i], list_sort[index_min] = list_sort[index_min], list_sort[i]    return list_sort

@@ -1,0 +1,1 @@
+def InsertionSortStep(list_sort, step, index):    el = index    for i in range(index, len(list_sort), step):        if el != i:            if list_sort[el] > list_sort[i]:                list_sort[el], list_sort[i] = list_sort[i], list_sort[el]    return list_sort
